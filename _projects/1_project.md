@@ -1,12 +1,16 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Miner
+description: Voxel worlds, love for Mining and Minecraft
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: portfolio
 related_publications: true
 ---
+
+As many, I was introduced to Minecraft by my friends, Akshat and Aman. We used to play the game all day long.
+Mining all day long, I was not very good at it to be honest. I did get better at Mining though after getting to
+know about strip mining and optimal mining level.
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

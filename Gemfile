@@ -21,6 +21,9 @@ group :jekyll_plugins do
     gem 'terser'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'nokogiri', '1.17.2', platforms: :ruby
+    gem 'google-protobuf', '4.29.1', platforms: :ruby
+    gem 'ffi', '1.17.0', platforms: :ruby
 end
 group :other_plugins do
     gem 'css_parser'
