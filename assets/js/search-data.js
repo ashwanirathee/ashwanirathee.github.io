@@ -4,65 +4,54 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "About",
+    title: "about",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-blog",
-          title: "Blog",
+          title: "blog",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
           },
         },{id: "nav-publications",
-          title: "Publications",
+          title: "publications",
           description: "publications by categories in reversed chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "Projects",
+          title: "projects",
           description: "2024-present",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
-          title: "Repositories",
+          title: "repositories",
           description: "Work samples of interest",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
-          title: "CV",
+          title: "cv",
           description: "Here is my CV",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
-          title: "Teaching",
+          title: "teaching",
           description: "Materials for courses I taught",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-ucsc-fall-quarter-1",
-      
-        title: "UCSC Fall Quarter 1",
-      
-      description: "this is what included image galleries could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/photo-gallery/";
-        
-      },
-    },{id: "post-2-way-communication-with-microcontrollers-using-c-and-julia",
+        },{id: "post-2-way-communication-with-microcontrollers-using-c-and-julia",
       
         title: '2-Way Communication with Microcontrollers using C and Julia <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -139,21 +128,40 @@ ninja.data = [{
           window.open("https://juliazoid.com/release-of-exifviewer-jl-for-image-metadata-gsoc22-work-product-fa0bcdc3fab4?source=rss-71f2969466cf------2", "_blank");
         
       },
-    },{id: "news-joined-fleetsafe-india-as-engineer-intern",
-          title: 'Joined FleetSafe India as Engineer Intern',
+    },{id: "news-i-ll-be-mentoring-students-in-girlscript-summer-of-code-for-project-algoscript",
+          title: 'I’ll be mentoring students in GirlScript Summer of Code for Project AlgoScript.',
           description: "",
-          section: "News",},{id: "news-started-working-as-software-engineer-at-fleetsafe-india",
-          title: 'Started working as Software Engineer at FleetSafe India',
+          section: "News",},{id: "news-i-have-joined-mdart-dic-panjab-universtity-as-project-intern",
+          title: 'I have joined MDaRT DIC, Panjab Universtity as project intern',
+          description: "",
+          section: "News",},{id: "news-i-have-been-selected-as-open-source-promotion-plan-student-developer-with-the-julia-language-under-johnny-chen-for-project-titled-wide-range-julialmages-demos-and-missing-functionalities-ospp",
+          title: 'I have been selected as Open Source Promotion Plan student developer with The...',
+          description: "",
+          section: "News",},{id: "news-won-mhacks-2021-with-the-best-medical-hack-for-project-semi-automatic-brain-tumor-segment-annotation-tool-using-dl",
+          title: 'Won MHacks 2021 with the Best Medical Hack for Project: Semi-Automatic Brain Tumor...',
+          description: "",
+          section: "News",},{id: "news-started-working-as-a-google-summer-of-code-student-developer-with-juliaimages-the-julia-language-under-johnny-chen-who-is-maintainer-of-juliaimages",
+          title: 'Started working as a Google Summer of Code student developer with JuliaImages, The...',
+          description: "",
+          section: "News",},{id: "news-i-have-joined-a-startup-named-fleetsafe-india-as-engineer-intern-working-on-embedded-systems",
+          title: 'I have joined a startup named FleetSafe India as Engineer Intern working on...',
+          description: "",
+          section: "News",},{id: "news-i-have-graduated-with-bachelors-of-engineering-in-information-technology-from-panjab-university",
+          title: 'I have graduated with Bachelors of Engineering in Information Technology from Panjab University...',
+          description: "",
+          section: "News",},{id: "news-i-have-started-working-as-a-software-engineer-at-fleetsafe-india-with-focus-on-embedded-systems-and-in-particular-radars",
+          title: 'I have started working as a Software Engineer at FleetSafe India with focus...',
+          description: "",
+          section: "News",},{id: "news-helped-conduct-workshop-titled-image-processing-with-images-jl-at-juliacon-23-mit",
+          title: 'Helped conduct workshop titled “Image Processing with Images.jl” at JuliaCon’23, MIT',
+          description: "",
+          section: "News",},{id: "news-journal-paper-titled-denoising-of-magnetic-resonance-images-of-brain-tumor-using-bt-autonet-published-in-biomedical-signal-processing-and-control",
+          title: 'Journal Paper titled “Denoising of magnetic resonance images of brain tumor using BT-Autonet”...',
           description: "",
           section: "News",},{id: "news-started-masters-of-science-in-computer-science-at-uc-santa-cruz",
           title: 'Started Masters of Science in Computer Science at UC Santa Cruz',
           description: "",
-          section: "News",},{id: "news-finished-first-quarter-at-ucsc-with-gpa-3-85-4",
-          title: 'Finished first quarter at UCSC with GPA 3.85/4',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_4/";
-            },},{id: "projects-project-3-with-very-long-name",
+          section: "News",},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
