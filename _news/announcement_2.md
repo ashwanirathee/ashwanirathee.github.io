@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started working as Software Engineer at FleetSafe India
+I have started working as a <strong>Software Engineer</strong> at <a href="https://fleetsafeindia.com/">FleetSafe India</a> with focus on embedded systems and in particular radars

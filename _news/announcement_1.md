@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined FleetSafe India as Engineer Intern
+I have joined a startup named <a href="https://fleetsafeindia.com/">FleetSafe India</a> as <strong>Engineer Intern</strong> working on embedded systems

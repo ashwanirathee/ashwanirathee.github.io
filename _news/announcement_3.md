@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started Masters of Science in Computer Science at UC Santa Cruz
+Started <strong>Masters of Science</strong> in Computer Science at <a href="https://www.ucsc.edu/">UC Santa Cruz</a>
